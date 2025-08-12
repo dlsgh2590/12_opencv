@@ -3,7 +3,7 @@ import cv2
 
 # ==============================
 video_path = 'walking.avi'         # 사용할 영상 경로
-desired_classes = [0, 2, 7]         # 탐지할 객체 클래스 번호 (예: 사람, 자동차)
+desired_classes = [0, 2, 7]         # 탐지할 객체 클래스 번호 (예: 사람, 자동차, 트럭)
 model_path = 'yolo11n.pt'        # 변경된 모델 경로
 
 #coco 클래스 번호
